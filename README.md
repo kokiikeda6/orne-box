@@ -1,4 +1,6 @@
 # orne-box
+津田沼チャレンジ2024 速度0.9
+
 Platform hardware for autonomous robot
 
 * [Purpose](https://github.com/open-rdc/orne_box/wiki/Initial-Purpose)
