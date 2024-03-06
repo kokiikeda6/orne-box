@@ -2,8 +2,8 @@
 <launch>
   <arg name="model" default="$(find orne_box_description)/urdf/orne_box_3d_lidar.urdf.xacro"/>
   <arg name="world" default="worlds/Tsudanuma_2-3.world"/>
-  <arg name="x_pos" default="0.0"/>
-  <arg name="y_pos" default="0.0"/>
+  <arg name="x_pos" default="-10.0"/>
+  <arg name="y_pos" default="31.0"/>
   <arg name="z_pos" default="0.0"/>
   <arg name="paused" default="false"/>
   <arg name="use_sim_time" default="true"/>
@@ -37,7 +37,7 @@
     <arg name="extra_gazebo_args" value="$(arg extra_gazebo_args)"/>
   </include>
 
-  <!-- <include file="$(find orne_box_bringup)/launch/includes/robot_localization.launch"/> -->
+  <include file="$(find orne_box_bringup)/launch/includes/robot_localization.launch"/>
 
   <include file="$(find orne_box_bringup)/launch/includes/teleop_joy.launch">
     <arg name="joy_dev" value="$(arg joy_dev)"/>
