@@ -1,7 +1,7 @@
 TrajectoryPlannerROS:
     acc_lim_x: 2.5
     #acc_lim_theta: 3.2
-    max_vel_x: 0.9 #0.6室内    
+    max_vel_x: 1.2 #0.6室内    
     min_vel_x: 0.0
     max_vel_theta: 1.7  #iias 1.0 #1.7
     min_vel_theta: -1.7 #iias -1.0 #-1.7
