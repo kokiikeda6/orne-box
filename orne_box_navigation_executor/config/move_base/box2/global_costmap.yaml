@@ -10,9 +10,9 @@ global_costmap:
   rolling_window: false
   always_send_full_costmap: false
   trinary_costmap: true
-  resolution: 0.1 #0.04
+  resolution: 0.05 #0.04
   #inflation_radius: 0.8 #iias
-  inflation_radius: 0.7
+  inflation_radius: 10.0 #0.7
   plugins:
     - name: planner_map_layer
       type: costmap_2d::StaticLayer
