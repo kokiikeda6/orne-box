@@ -9,15 +9,24 @@ waypoint_server:
     y: 0
     z: 1.57
   waypoints:
-    - id: registed_goal_0
+    - id: registed_0_1652870290928670167
       position:
-        x: -5.386889
-        y: 7.920195
+        x: 27.82302
+        y: -2.121202
+        z: -3
+      euler_angles:
+        x: -0
+        y: 0
+        z: 1.320233
+    - id: registed_0_1652869641731469277
+      position:
+        x: -5.495299
+        y: -1.590803
         z: -3
       euler_angles:
         x: 0
         y: 0
-        z: -2.211561
+        z: -0.61185
     - id: 3
       position:
         x: 28.11231
@@ -32,21 +41,12 @@ waypoint_server:
           value: true
       connections:
         - 1
-    - id: registed_0_1652869641731469277
+    - id: registed_goal_0
       position:
-        x: -5.318697
-        y: -1.595201
+        x: -5.415352
+        y: 8.232842
         z: -3
       euler_angles:
         x: 0
         y: 0
-        z: -0.61185
-    - id: registed_0_1652870290928670167
-      position:
-        x: 27.82302
-        y: -2.121201
-        z: -3
-      euler_angles:
-        x: -0
-        y: 0
-        z: 1.320233
+        z: -2.211561
