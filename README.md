@@ -1,5 +1,5 @@
 # orne-box
-津田沼チャレンジ2024 速度0.9
+二号館三階テスト
 
 Platform hardware for autonomous robot
 
