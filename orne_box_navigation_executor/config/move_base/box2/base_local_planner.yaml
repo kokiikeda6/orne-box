@@ -10,8 +10,8 @@ TrajectoryPlannerROS:
     yaw_goal_tolerance: 0.5
     xy_goal_tolerance: 0.4
     #pdist_scale: 0.8 #iias
-    pdist_scale: 0.4
-    gdist_scale: 0.8
+    pdist_scale: 0.8
+    gdist_scale: 0.4
     occdist_scale: 0.18 #0.1 0.07
     escape_vel: 0.0
     meter_scoring: true
