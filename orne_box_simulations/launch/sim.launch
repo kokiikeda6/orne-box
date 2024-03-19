@@ -50,6 +50,6 @@
   <node pkg="orne_box_bringup" type="projected_transform_publisher_node" name="projected_transform_publisher" output="$(arg output)">
   </node>
 
-  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find orne_box_simulations)/rviz/sim.rviz"/>
+  <!-- <node pkg="rviz" type="rviz" name="rviz" args="-d $(find orne_box_simulations)/rviz/sim.rviz"/> -->
 
 </launch>
