@@ -26,7 +26,7 @@ waypoint_server:
       euler_angles:
         x: 0
         y: 0
-        z: -0.61185
+        z: -0.6118501
     - id: 3
       position:
         x: 28.11231
@@ -43,10 +43,24 @@ waypoint_server:
         - 1
     - id: registed_goal_0
       position:
-        x: -5.415352
-        y: 8.232842
+        x: 10.67192
+        y: 7.897385
         z: -3
+      euler_angles:
+        x: 8.742276e-08
+        y: 1.509958e-07
+        z: -3.137352
+      properties:
+        - key: stop
+          value: true
+        - key: goal_radius
+          value: 1.0
+    - id: registed_0_73158000000
+      position:
+        x: -5.413615
+        y: 8.228432
+        z: -2.999998
       euler_angles:
         x: 0
         y: 0
-        z: -2.211561
+        z: -1.57
