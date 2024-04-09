@@ -7,9 +7,9 @@
     local-name: ypspur_ros
     version: master
 - git:
-    uri: https://github.com/open-rdc/orne-box
+    uri: https://github.com/tripleK0360/orne-box
     local-name: orne-box
-    version: noetic-devel
+    version: tsudanuma2024
 - git:
     uri: https://github.com/ros-planning/navigation
     local-name: navigation
