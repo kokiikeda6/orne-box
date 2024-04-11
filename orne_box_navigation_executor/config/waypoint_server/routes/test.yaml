@@ -1,11 +1,10 @@
 waypoint_server:
   route:
     ids:
-      - registed_goal_0
       - registed_0_1711529287394698610
       - registed_0_73158000000
       - registed_0_1652869641731469277
       - registed_0_1652870290928670167
       - registed_0_1711527506559531697
       - registed_0_1711529268569425987
-    count_of_skip_ids: 1
+    count_of_skip_ids: 0
