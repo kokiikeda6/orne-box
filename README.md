@@ -1,5 +1,5 @@
 # orne-box
-二号館三階テスト
+ウェイポイント編集用
 
 Platform hardware for autonomous robot
 
