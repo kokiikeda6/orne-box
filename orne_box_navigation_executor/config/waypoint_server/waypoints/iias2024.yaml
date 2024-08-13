@@ -9,145 +9,155 @@ waypoint_server:
     y: 0
     z: 1.57
   waypoints:
-    - id: registed_0_1414823000000
+    - id: registed_0_428906000000
       position:
-        x: 0.7562609
-        y: -4.43691
-        z: -3
+        x: 15.75423
+        y: -0.4300804
+        z: -2.999998
       euler_angles:
-        x: 3.141592
-        y: 3.141593
-        z: -1.558092
+        x: -0
+        y: -0
+        z: 1.594688
       properties:
+        - key: goal_radius
+          value: 0.5
         - key: stop
           value: true
-    - id: registed_0_1237017000000
+    - id: registed_0_1722835183646609566
       position:
-        x: 15.4034
-        y: -2.463095
+        x: 25.01556
+        y: -119.2702
+        z: -2.999998
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1711527506559531697
+      position:
+        x: 8.071663
+        y: -88.55382
         z: -3
       euler_angles:
         x: 0
         y: 0
-        z: -1.57
-    - id: registed_0_1161583000000
-      position:
-        x: 10.06616
-        y: 67.04718
-        z: -2.999996
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1119405000000
-      position:
-        x: -6.75547
-        y: 55.26149
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1102605000000
-      position:
-        x: 1.836662
-        y: 47.71616
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1065964000000
-      position:
-        x: 10.45845
-        y: 53.23734
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1052707000000
-      position:
-        x: 20.01181
-        y: 55.20763
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1110507000000
-      position:
-        x: -5.242577
-        y: 49.15813
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_448334000000
-      position:
-        x: 15.83017
-        y: 3.40332
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
+        z: -3.112936
       properties:
         - key: stop
           value: false
         - key: goal_radius
-          value: 0.5
-    - id: registed_0_1186789000000
-      position:
-        x: 20.20904
-        y: 59.42838
-        z: -3
-      euler_angles:
-        x: 8.742274e-08
-        y: 1.509958e-07
-        z: 1.623443
-      properties:
-        - key: stop
-          value: true
-        - key: goal_radius
-          value: 0.5
-    - id: registed_0_1652870290928670167
-      position:
-        x: 4.816734
-        y: -80.29076
-        z: -2.999996
-      euler_angles:
-        x: -0
-        y: 0
-        z: 1.320233
-      properties:
-        - key: area_waypoint_OFF
-          value: ""
-        - key: switch_segmentation_ON
-          value: ""
-        - key: traffic_sign_OFF
-          value: ""
-        - key: switch_segmentation_OFF
-          value: ""
-        - key: traffic_sign_ON
-          value: ""
-        - key: area_waypoint_ON
-          value: ""
-        - key: area_select_OFF
-          value: ""
-        - key: white
-          value: ""
-        - key: standby_mode
-          value: ""
-        - key: stop
+          value: 1.0
+        - key: detect_box_ON
           value: ""
         - key: detect_box_OFF
           value: ""
-        - key: area_select_ON
-          value: ""
-        - key: detect_box_ON
-          value: ""
+    - id: registed_0_1722835288471762573
+      position:
+        x: 53.92116
+        y: -90.47571
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1150954000000
+      position:
+        x: 2.711998
+        y: 69.31145
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1722835502801754747
+      position:
+        x: 40.24978
+        y: -4.526051
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1722835529552540600
+      position:
+        x: 15.40111
+        y: -5.236054
+        z: -2.999996
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1169690000000
+      position:
+        x: 13.16074
+        y: 58.47746
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1722835426763931830
+      position:
+        x: 54.30999
+        y: -14.74666
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1722835302782943477
+      position:
+        x: 55.69459
+        y: -69.4411
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1134009000000
+      position:
+        x: -4.719398
+        y: 64.29753
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1722835073947641026
+      position:
+        x: 17.03482
+        y: -108.0462
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1722835334462447796
+      position:
+        x: 56.6187
+        y: -57.45712
+        z: -2.999996
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1722835408344918431
+      position:
+        x: 54.61776
+        y: -28.02094
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1722835459543408051
+      position:
+        x: 49.61899
+        y: -9.056648
+        z: -2.999996
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
     - id: registed_0_1711529268569425987
       position:
         x: 13.39631
@@ -157,11 +167,168 @@ waypoint_server:
         x: 0
         y: 0
         z: -1.57
-    - id: registed_0_1722835459543408051
+    - id: registed_0_1237017000000
       position:
-        x: 49.61899
-        y: -9.056644
+        x: 15.4034
+        y: -2.463095
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1110507000000
+      position:
+        x: -5.24258
+        y: 49.15813
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1065964000000
+      position:
+        x: 10.45845
+        y: 53.23733
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1161583000000
+      position:
+        x: 10.06614
+        y: 67.04718
         z: -2.999996
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1722835391805910291
+      position:
+        x: 56.2816
+        y: -44.20548
+        z: -2.999992
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1102605000000
+      position:
+        x: 1.836666
+        y: 47.71616
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1722835197005063805
+      position:
+        x: 22.79411
+        y: -125.0757
+        z: -2.999996
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1722835250231555701
+      position:
+        x: 36.53896
+        y: -126.4607
+        z: -2.999996
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1652870290928670167
+      position:
+        x: 4.816742
+        y: -80.29073
+        z: -2.999996
+      euler_angles:
+        x: -0
+        y: 0
+        z: 1.320233
+      properties:
+        - key: detect_box_ON
+          value: ""
+        - key: area_select_ON
+          value: ""
+        - key: detect_box_OFF
+          value: ""
+        - key: stop
+          value: ""
+        - key: standby_mode
+          value: ""
+        - key: white
+          value: ""
+        - key: area_select_OFF
+          value: ""
+        - key: area_waypoint_ON
+          value: ""
+        - key: traffic_sign_ON
+          value: ""
+        - key: switch_segmentation_OFF
+          value: ""
+        - key: traffic_sign_OFF
+          value: ""
+        - key: switch_segmentation_ON
+          value: ""
+        - key: area_waypoint_OFF
+          value: ""
+    - id: registed_0_1186789000000
+      position:
+        x: 20.20903
+        y: 59.42838
+        z: -3
+      euler_angles:
+        x: 8.742271e-08
+        y: 1.509958e-07
+        z: 1.623443
+      properties:
+        - key: goal_radius
+          value: 0.5
+        - key: stop
+          value: true
+    - id: registed_0_1414823000000
+      position:
+        x: 0.7562609
+        y: -4.436909
+        z: -3
+      euler_angles:
+        x: 3.141592
+        y: -3.141592
+        z: -1.558092
+      properties:
+        - key: stop
+          value: true
+    - id: registed_0_448334000000
+      position:
+        x: 15.78275
+        y: 2.545458
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+      properties:
+        - key: goal_radius
+          value: 0.5
+        - key: stop
+          value: false
+    - id: registed_0_1052707000000
+      position:
+        x: 20.01181
+        y: 55.20763
+        z: -3
+      euler_angles:
+        x: 0
+        y: 0
+        z: -1.57
+    - id: registed_0_1119405000000
+      position:
+        x: -6.755474
+        y: 55.26149
+        z: -3
       euler_angles:
         x: 0
         y: 0
@@ -176,31 +343,31 @@ waypoint_server:
         y: 0
         z: -1.57
       properties:
-        - key: area_waypoint_OFF
-          value: ""
-        - key: switch_segmentation_ON
-          value: ""
-        - key: traffic_sign_OFF
-          value: ""
-        - key: switch_segmentation_OFF
-          value: ""
-        - key: traffic_sign_ON
-          value: ""
-        - key: area_waypoint_ON
-          value: ""
-        - key: area_select_OFF
-          value: ""
-        - key: white
-          value: ""
-        - key: standby_mode
-          value: ""
-        - key: stop
-          value: ""
-        - key: detect_box_OFF
+        - key: detect_box_ON
           value: ""
         - key: area_select_ON
           value: ""
-        - key: detect_box_ON
+        - key: detect_box_OFF
+          value: ""
+        - key: stop
+          value: ""
+        - key: standby_mode
+          value: ""
+        - key: white
+          value: ""
+        - key: area_select_OFF
+          value: ""
+        - key: area_waypoint_ON
+          value: ""
+        - key: traffic_sign_ON
+          value: ""
+        - key: switch_segmentation_OFF
+          value: ""
+        - key: traffic_sign_OFF
+          value: ""
+        - key: switch_segmentation_ON
+          value: ""
+        - key: area_waypoint_OFF
           value: ""
     - id: registed_0_1722835089223458443
       position:
@@ -213,8 +380,8 @@ waypoint_server:
         z: -1.57
     - id: registed_0_1722835484874762445
       position:
-        x: 46.94745
-        y: -4.856983
+        x: 46.94744
+        y: -4.856991
         z: -3
       euler_angles:
         x: 0
@@ -222,71 +389,62 @@ waypoint_server:
         z: -1.57
     - id: registed_0_1652869641731469277
       position:
-        x: -0.525898
+        x: -0.5258904
         y: -47.04908
         z: -2.999996
       euler_angles:
         x: 0
         y: 0
-        z: -0.61185
+        z: -0.6118501
       properties:
-        - key: area_waypoint_OFF
-          value: ""
-        - key: switch_segmentation_ON
-          value: ""
-        - key: traffic_sign_OFF
-          value: ""
-        - key: switch_segmentation_OFF
-          value: ""
-        - key: traffic_sign_ON
-          value: ""
-        - key: area_waypoint_ON
-          value: ""
-        - key: area_select_OFF
-          value: ""
-        - key: white
-          value: ""
-        - key: standby_mode
-          value: ""
-        - key: stop
-          value: ""
-        - key: detect_box_OFF
+        - key: detect_box_ON
           value: ""
         - key: area_select_ON
           value: ""
-        - key: detect_box_ON
+        - key: detect_box_OFF
           value: ""
-    - id: registed_0_1378895000000
-      position:
-        x: 0.7924128
-        y: -7.917186
-        z: -3.000002
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
+        - key: stop
+          value: ""
+        - key: standby_mode
+          value: ""
+        - key: white
+          value: ""
+        - key: area_select_OFF
+          value: ""
+        - key: area_waypoint_ON
+          value: ""
+        - key: traffic_sign_ON
+          value: ""
+        - key: switch_segmentation_OFF
+          value: ""
+        - key: traffic_sign_OFF
+          value: ""
+        - key: switch_segmentation_ON
+          value: ""
+        - key: area_waypoint_OFF
+          value: ""
     - id: registed_0_1722835210197963815
       position:
-        x: 27.07671
+        x: 27.0767
         y: -129.8636
         z: -2.999996
       euler_angles:
         x: 0
         y: 0
         z: -1.57
-    - id: registed_0_1607116000000
+    - id: registed_0_1378895000000
       position:
-        x: 8.312598
-        y: -2.744587
-        z: -2.999998
+        x: 0.7924128
+        y: -7.917184
+        z: -3.000002
       euler_angles:
         x: 0
         y: 0
         z: -1.57
     - id: registed_0_1722835550513944635
       position:
-        x: 3.615675
-        y: -9.839967
+        x: 3.615674
+        y: -9.839966
         z: -2.999996
       euler_angles:
         x: 0
@@ -294,27 +452,27 @@ waypoint_server:
         z: -1.57
     - id: registed_0_1722835471841594515
       position:
-        x: 53.64743
-        y: -5.069397
+        x: 53.64742
+        y: -5.069393
         z: -2.999996
       euler_angles:
         x: 0
         y: 0
         z: -1.57
-    - id: registed_0_1722835197005063805
+    - id: registed_0_1607116000000
       position:
-        x: 22.79414
-        y: -125.0757
-        z: -2.999996
+        x: 8.312595
+        y: -2.744587
+        z: -2.999998
       euler_angles:
         x: 0
         y: 0
         z: -1.57
-    - id: registed_0_1722835250231555701
+    - id: registed_0_1722835274780918029
       position:
-        x: 36.53898
-        y: -126.4607
-        z: -2.999996
+        x: 53.83375
+        y: -110.6503
+        z: -3
       euler_angles:
         x: 0
         y: 0
@@ -330,55 +488,16 @@ waypoint_server:
         z: -1.57
     - id: registed_0_1722835521288426846
       position:
-        x: 26.60943
-        y: -5.090361
+        x: 26.60942
+        y: -5.090357
         z: -2.999996
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1722835391805910291
-      position:
-        x: 56.28162
-        y: -44.20549
-        z: -2.999992
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1722835274780918029
-      position:
-        x: 53.83377
-        y: -110.6503
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1195264000000
-      position:
-        x: 20.249
-        y: 63.06852
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-      properties:
-        - key: goal_radius
-          value: 0.5
-    - id: registed_0_1722835694551141771
-      position:
-        x: 0.0807972
-        y: -15.08334
-        z: -3
       euler_angles:
         x: 0
         y: 0
         z: -1.57
     - id: registed_0_73158000000
       position:
-        x: 0.3985291
+        x: 0.3985329
         y: -28.96017
         z: -3
       euler_angles:
@@ -386,169 +505,50 @@ waypoint_server:
         y: 0
         z: -1.57
       properties:
-        - key: area_waypoint_OFF
-          value: ""
-        - key: switch_segmentation_ON
-          value: ""
-        - key: traffic_sign_OFF
-          value: ""
-        - key: switch_segmentation_OFF
-          value: ""
-        - key: traffic_sign_ON
-          value: ""
-        - key: area_waypoint_ON
-          value: ""
-        - key: area_select_OFF
-          value: ""
-        - key: white
-          value: ""
-        - key: standby_mode
-          value: ""
-        - key: stop
-          value: ""
-        - key: detect_box_OFF
+        - key: detect_box_ON
           value: ""
         - key: area_select_ON
           value: ""
-        - key: detect_box_ON
-          value: ""
-    - id: registed_0_1722835408344918431
-      position:
-        x: 54.61776
-        y: -28.02094
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1722835334462447796
-      position:
-        x: 56.6187
-        y: -57.45712
-        z: -2.999996
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1722835073947641026
-      position:
-        x: 17.03482
-        y: -108.0462
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1134009000000
-      position:
-        x: -4.719391
-        y: 64.29755
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1722835302782943477
-      position:
-        x: 55.69461
-        y: -69.44111
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1722835426763931830
-      position:
-        x: 54.31001
-        y: -14.74667
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1169690000000
-      position:
-        x: 13.16074
-        y: 58.47746
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1722835529552540600
-      position:
-        x: 15.40111
-        y: -5.236054
-        z: -2.999996
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1722835502801754747
-      position:
-        x: 40.24979
-        y: -4.526051
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1150954000000
-      position:
-        x: 2.711983
-        y: 69.31145
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1722835288471762573
-      position:
-        x: 53.92117
-        y: -90.47572
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -1.57
-    - id: registed_0_1711527506559531697
-      position:
-        x: 8.071655
-        y: -88.55383
-        z: -3
-      euler_angles:
-        x: 0
-        y: 0
-        z: -3.112936
-      properties:
         - key: detect_box_OFF
           value: ""
-        - key: detect_box_ON
-          value: ""
-        - key: goal_radius
-          value: 1.0
         - key: stop
-          value: false
-    - id: registed_0_1722835183646609566
+          value: ""
+        - key: standby_mode
+          value: ""
+        - key: white
+          value: ""
+        - key: area_select_OFF
+          value: ""
+        - key: area_waypoint_ON
+          value: ""
+        - key: traffic_sign_ON
+          value: ""
+        - key: switch_segmentation_OFF
+          value: ""
+        - key: traffic_sign_OFF
+          value: ""
+        - key: switch_segmentation_ON
+          value: ""
+        - key: area_waypoint_OFF
+          value: ""
+    - id: registed_0_1722835694551141771
       position:
-        x: 25.01559
-        y: -119.2702
-        z: -2.999998
+        x: 0.08080006
+        y: -15.08334
+        z: -3
       euler_angles:
         x: 0
         y: 0
         z: -1.57
-    - id: registed_0_428906000000
+    - id: registed_0_1195264000000
       position:
-        x: 15.88153
-        y: -0.250639
+        x: 20.24899
+        y: 63.0685
         z: -3
       euler_angles:
-        x: 3.141593
-        y: 3.141593
-        z: -1.546904
+        x: 0
+        y: 0
+        z: -1.57
       properties:
-        - key: stop
-          value: true
         - key: goal_radius
           value: 0.5
