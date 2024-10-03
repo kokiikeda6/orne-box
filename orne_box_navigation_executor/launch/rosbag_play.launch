@@ -1,0 +1,17 @@
+<launch>
+  <arg name="waypoint_config" default="$(find orne_box_navigation_executor)/config/waypoint_server/waypoint_server.yaml"/>
+  <arg name="map_file"   default="$(find orne_box_navigation_executor)/maps/tsukuba_shirasu"/>
+
+  <include file="$(find orne_box_navigation_executor)/launch/waypoint_server.launch">
+    <arg name="config_file" value="$(arg waypoint_config)"/>
+  </include>
+
+  <!-- <node pkg="orne_box_bringup" type="projected_transform_publisher_node" name="projected_transform_publisher" output="screen"/> -->
+
+  <!-- <node pkg="map_server" type="map_server" name="map_server_for_costmap" args="$(arg map_file)_for_costmap.yaml">
+    <param name="frame_id" value="map_for_costmap"/>
+    <remap from="/map" to="/map_for_costmap"/>
+  </node> -->
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find orne_box_navigation_executor)/rviz/edit.rviz"/>
+</launch>
