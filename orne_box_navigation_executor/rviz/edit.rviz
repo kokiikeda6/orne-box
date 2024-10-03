@@ -38,7 +38,7 @@ Visualization Manager:
       Cell Size: 2.5
       Class: rviz/Grid
       Color: 160; 160; 164
-      Enabled: true
+      Enabled: false
       Line Style:
         Line Width: 0.029999999329447746
         Value: Lines
@@ -51,7 +51,7 @@ Visualization Manager:
       Plane: XY
       Plane Cell Count: 100
       Reference Frame: map
-      Value: true
+      Value: false
     - Alpha: 0.5
       Class: rviz/RobotModel
       Collision Enabled: false
@@ -540,8 +540,8 @@ Visualization Manager:
         - Alpha: 0.5
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 22.42888069152832
-            Min Value: -1.6134382486343384
+            Max Value: 27.592430114746094
+            Min Value: -0.9684517979621887
             Value: true
           Axis: Z
           Channel Name: intensity
@@ -724,6 +724,16 @@ Visualization Manager:
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic: /map_for_costmap
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -753,7 +763,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 26.001651763916016
+      Distance: 204.7251739501953
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -761,9 +771,9 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 0.7280314564704895
-        Y: -1.5719714164733887
-        Z: -0.6169061064720154
+        X: 8.865129470825195
+        Y: -22.395198822021484
+        Z: -6.442054271697998
       Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false

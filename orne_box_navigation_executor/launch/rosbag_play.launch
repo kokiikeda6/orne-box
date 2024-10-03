@@ -1,4 +1,5 @@
 <launch>
+
   <arg name="waypoint_config" default="$(find orne_box_navigation_executor)/config/waypoint_server/waypoint_server.yaml"/>
   <arg name="map_file"   default="$(find orne_box_navigation_executor)/maps/tsukuba_shirasu"/>
 
@@ -12,6 +13,7 @@
     <param name="frame_id" value="map_for_costmap"/>
     <remap from="/map" to="/map_for_costmap"/>
   </node> -->
+    <node pkg="tf2_ros" type="static_transform_publisher" name="map_to_map_for_costmap" args="0 0 0 0 0 0 map map_for_costmap" />
 
     <node pkg="rviz" type="rviz" name="rviz" args="-d $(find orne_box_navigation_executor)/rviz/edit.rviz"/>
 </launch>
