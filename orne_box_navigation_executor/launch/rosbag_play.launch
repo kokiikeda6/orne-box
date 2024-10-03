@@ -1,7 +1,6 @@
 <launch>
 
   <arg name="waypoint_config" default="$(find orne_box_navigation_executor)/config/waypoint_server/waypoint_server.yaml"/>
-  <arg name="map_file"   default="$(find orne_box_navigation_executor)/maps/tsukuba_shirasu"/>
 
   <include file="$(find orne_box_navigation_executor)/launch/waypoint_server.launch">
     <arg name="config_file" value="$(arg waypoint_config)"/>
