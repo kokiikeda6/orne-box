@@ -1,17 +1,15 @@
 waypoint_server:
   route:
     ids:
+      - registed_0_1650561188224170784
       - registed_0_600053000000
       - registed_0_630163000000
       - registed_0_635868000000
       - registed_0_642016000000
       - registed_0_672719000000
-      - registed_0_228884000000
       - registed_0_690516000000
-      - registed_0_487087000000
       - registed_0_703116000000
       - registed_0_706473000000
-      - registed_0_526190000000
       - registed_0_711323000000
       - registed_0_720881000000
       - registed_0_731136000000
