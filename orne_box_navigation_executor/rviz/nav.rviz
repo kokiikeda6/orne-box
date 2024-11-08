@@ -69,11 +69,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        gnss_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         hokuyo_link:
           Alpha: 1
           Show Axes: false
@@ -109,27 +104,12 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        surestar:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        surestar_base_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         wheel_left_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
         wheel_right_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        zed_camera_center:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -163,35 +143,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.10000000149011612
       Style: Flat Squares
-      Topic: /hokuyo_scan
-      Unreliable: false
-      Use Fixed Frame: true
-      Use rainbow: true
-      Value: true
-    - Alpha: 1
-      Autocompute Intensity Bounds: true
-      Autocompute Value Bounds:
-        Max Value: 10
-        Min Value: -10
-        Value: true
-      Axis: Z
-      Channel Name: intensity
-      Class: rviz/LaserScan
-      Color: 25; 255; 0
-      Color Transformer: FlatColor
-      Decay Time: 0
-      Enabled: true
-      Invert Rainbow: false
-      Max Color: 255; 255; 255
-      Min Color: 0; 0; 0
-      Name: LaserScan
-      Position Transformer: XYZ
-      Queue Size: 10
-      Selectable: true
-      Size (Pixels): 3
-      Size (m): 0.10000000149011612
-      Style: Flat Squares
-      Topic: /rfans/surestar_scan
+      Topic: /scan
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -280,24 +232,6 @@ Visualization Manager:
       Topic: /move_base/local_costmap/costmap
       Unreliable: false
       Use Timestamp: false
-      Value: true
-    - Alpha: 1
-      Class: rviz/Polygon
-      Color: 25; 255; 0
-      Enabled: true
-      Name: Polygon
-      Queue Size: 10
-      Topic: /move_base/local_costmap/footprint
-      Unreliable: false
-      Value: true
-    - Alpha: 1
-      Class: rviz/Polygon
-      Color: 25; 255; 0
-      Enabled: true
-      Name: Polygon
-      Queue Size: 10
-      Topic: /move_base/global_costmap/obstacle_layer_footprint/footprint_stamped
-      Unreliable: false
       Value: true
     - Alpha: 1
       Axes Length: 1
@@ -393,7 +327,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/ThirdPersonFollower
-      Distance: 9.693839073181152
+      Distance: 12.450238227844238
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -401,17 +335,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 0.15552380681037903
-        Y: 0.32384631037712097
+        X: -0.2082970142364502
+        Y: -0.5718436241149902
         Z: -2.763769225566648e-05
       Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.0197962522506714
+      Pitch: 1.2147961854934692
       Target Frame: base_link
-      Yaw: 1.6603126525878906
+      Yaw: 3.160318613052368
     Saved: ~
 Window Geometry:
   Displays:

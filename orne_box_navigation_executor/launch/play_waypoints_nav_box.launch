@@ -16,6 +16,7 @@
     <arg name="map_file" value="$(arg map_file)"/>
     <arg name="odom_topic" value="$(arg odom_topic)"/>
     <arg name="cmd_vel" value="$(arg cmd_vel)"/>
+    <remap from="scan" to="hokuyo_scan"/>
   </include>
 
   <!-- <include file="$(find emcl2)/launch/emcl2.launch">
