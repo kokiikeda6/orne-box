@@ -1,7 +1,7 @@
 <launch>
 
-  <!-- <arg name="waypoint_config" default="/home/koki/box2/waypoint_server.yaml"/> -->
-  <arg name="waypoint_config" default="$(find orne_box_navigation_executor)/config/waypoint_server/waypoint_server.yaml"/>
+  <arg name="waypoint_config" default="/home/koki/box2/waypoint_server.yaml"/>
+  <!-- <arg name="waypoint_config" default="$(find orne_box_navigation_executor)/config/waypoint_server/waypoint_server.yaml"/> -->
 
   <include file="$(find orne_box_navigation_executor)/launch/waypoint_server.launch">
     <arg name="config_file" value="$(arg waypoint_config)"/>
