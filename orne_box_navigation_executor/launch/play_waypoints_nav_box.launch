@@ -7,7 +7,8 @@
   <arg name="odom_topic" default="odometry/filtered"/>
   <arg name="cmd_vel" default="cmd_vel"/>
   <arg name="waypoint_config" default="$(find orne_box_navigation_executor)/config/waypoint_server/waypoint_server.yaml"/> 
-  
+  <arg name="reconfig_file" default="$(find orne_box_navigation_executor)/config/waypoint_server/reconfigure_list.yaml"/>
+
   <include file="$(find orne_box_navigation_executor)/launch/move_base.launch">
     <arg name="robot_name" value="$(arg robot_name)"/>
     <arg name="map_file" value="$(arg map_file)"/>
@@ -31,9 +32,16 @@
      <remap from="rfans/scan" to="scan"/>
   </include> -->
 	 
-  <include file="$(find orne_box_navigation_executor)/launch/waypoint_server.launch">
+  <include file="$(find waypoint_server)/launch/waypoint_server_options.launch">
     <arg name="config_file" value="$(arg waypoint_config)"/>
+    <arg name="reconfig_file" value="$(arg reconfig_file)"/>
+    <arg name="use_check_robot_moving" value="false"/>
+    <arg name="use_waypoint_reconfigure" value="true"/>
   </include>
+
+  <!-- <include file="$(find orne_box_navigation_executor)/launch/waypoint_server.launch">
+    <arg name="config_file" value="$(arg waypoint_config)"/>
+  </include> -->
 
   <!-- <include file="$(find waypoint_server)/launch/waypoint_server_stop.launch"> -->
     <!-- <arg name="config_file" value="$(arg waypoint_config)"/> -->
