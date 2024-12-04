@@ -1,3 +1,5 @@
+<?xml version="1.0"?>
+
 <launch>
 
   <arg name="waypoint_config" default="/home/koki/box2/waypoint_server.yaml"/>
