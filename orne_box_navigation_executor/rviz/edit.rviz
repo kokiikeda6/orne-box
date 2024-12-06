@@ -4,6 +4,7 @@ Panels:
     Name: Displays
     Property Tree Widget:
       Expanded:
+        - /move base1/Base Global Planner1
         - /Odometries1/Filtered1/Shape1
         - /Odometries1/Filtered1/Covariance1
         - /Odometries1/Filtered1/Covariance1/Position1
@@ -102,12 +103,12 @@ Visualization Manager:
         y_scale: 1
         z_scale: 1
       Class: rviz_imu_plugin/Imu
-      Enabled: true
+      Enabled: false
       Name: Imu
       Queue Size: 10
       Topic: /imu_data
       Unreliable: false
-      Value: true
+      Value: false
       fixed_frame_orientation: true
     - Class: rviz/Group
       Displays:
@@ -134,13 +135,13 @@ Visualization Manager:
         - Alpha: 1
           Buffer Length: 1
           Class: rviz/Path
-          Color: 25; 255; 0
+          Color: 239; 41; 41
           Enabled: true
           Head Diameter: 0.30000001192092896
           Head Length: 0.20000000298023224
           Length: 0.30000001192092896
-          Line Style: Lines
-          Line Width: 0.029999999329447746
+          Line Style: Billboards
+          Line Width: 0.10000000149011612
           Name: Base Global Planner
           Offset:
             X: 0
@@ -540,8 +541,8 @@ Visualization Manager:
         - Alpha: 0.5
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 28.014095306396484
-            Min Value: -3.3373794555664062
+            Max Value: 11.650219917297363
+            Min Value: 0.2895069122314453
             Value: true
           Axis: Z
           Channel Name: intensity
@@ -762,7 +763,7 @@ Visualization Manager:
   Value: true
   Views:
     Current:
-      Angle: 0
+      Angle: 0.2199999988079071
       Class: rviz/TopDownOrtho
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
@@ -772,10 +773,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Scale: 15.400824546813965
+      Scale: 54.54191970825195
       Target Frame: base_link
-      X: 3.8798680305480957
-      Y: -4.440978050231934
+      X: 1.3093715906143188
+      Y: 2.221836805343628
     Saved: ~
 Window Geometry:
   Displays:
